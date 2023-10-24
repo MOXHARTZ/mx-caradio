@@ -25,9 +25,8 @@ CreateThread(function()
         local sleep = 1250
         if isInVehicle then
             sleep = 0
-            if IsControlJustPressed(0, 44) and IsPedInAnyVehicle(playerped, false) then
+            if IsControlJustPressed(0, 44) and isInVehicle then
                 HideHudComponentThisFrame(16)
-                local vehicle = GetVehiclePedIsIn(playerped, false)
                 SetVehRadioStation(vehicle, 'OFF')
                 SetVehicleRadioEnabled(vehicle, false)
                 SetRadioStationDisabled('RADIO_01_CLASS_ROCK', true)
