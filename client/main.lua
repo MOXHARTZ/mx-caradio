@@ -12,10 +12,11 @@ end)
 
 local function openUi()
     if not isInVehicle then return end
+    local _vehicle = vehicle
     local plate = GetVehicleNumberPlateText(vehicle)
     exports['mx-audioplayer']:open({
         onPlay = function(sound)
-            TriggerServerEvent('mx-caradio:attach', sound.soundId, NetworkGetNetworkIdFromEntity(vehicle))
+            TriggerServerEvent('mx-caradio:attach', sound.soundId, NetworkGetNetworkIdFromEntity(_vehicle))
         end
     }, plate)
 end
