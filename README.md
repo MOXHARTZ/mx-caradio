@@ -12,8 +12,8 @@ This script is made for mx-surround. With this script you can play the playlist 
 
 # REQUIREMENTS
 - [mx-surround](https://mxstore.tebex.io/package/5864855)
-- [mx-audioplayer](https://github.com/MOXHARTZ/mx-caradio)
+- [mx-audioplayer](https://github.com/MOXHARTZ/mx-audioplayer)
 
 # Other official addon scripts
-- [mx-audioplayer](https://github.com/MOXHARTZ/mx-caradio)
+- [mx-audioplayer](https://github.com/MOXHARTZ/mx-audioplayer)
 - [mx-boombox](https://github.com/MOXHARTZ/mx-boombox)
